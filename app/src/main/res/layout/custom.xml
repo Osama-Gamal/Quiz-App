@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:gravity="center_horizontal"
+	android:background="@drawable/image_7">
+
+	<LinearLayout
+		android:layout_height="30dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:background="#1F97FD"
+		android:gravity="center_vertical|center_horizontal">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="Soon"
+			android:textColor="#000000"
+			android:textSize="20sp"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="We didn't finish this unit yet , please be patien and make sure that we do our best to be done this work as fast as we can"
+		android:id="@+id/textview1"
+		android:textColor="#000000"
+		android:padding="8dp"
+		android:gravity="center_vertical|center_horizontal"/>
+
+</LinearLayout>
+
