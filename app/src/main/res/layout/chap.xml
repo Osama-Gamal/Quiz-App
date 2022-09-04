@@ -53,7 +53,7 @@
 							android:background="@drawable/btn">
 
 							<Button
-								android:id="@+id/button33"
+								android:id="@+id/unit1Btn"
 								android:layout_width="wrap_content"
 								android:layout_height="60dp"
 								android:padding="8dp"
@@ -73,7 +73,7 @@
 								android:padding="6dp">
 
 								<TextView
-									android:id="@+id/textview1"
+									android:id="@+id/unit1Txt"
 									android:layout_width="wrap_content"
 									android:layout_height="wrap_content"
 									android:text="99%"
@@ -85,7 +85,7 @@
 									android:layout_weight="1.0"/>
 
 								<TextView
-									android:id="@+id/textview11"
+									android:id="@+id/unit1Txt2"
 									android:layout_width="wrap_content"
 									android:layout_height="wrap_content"
 									android:text="%0"
@@ -108,7 +108,7 @@
 							android:background="@drawable/btn">
 
 							<Button
-								android:id="@+id/button34"
+								android:id="@+id/unit2Btn"
 								android:layout_width="wrap_content"
 								android:layout_height="60dp"
 								android:layout_marginTop="1dp"
@@ -129,7 +129,7 @@
 								android:padding="6dp">
 
 								<TextView
-									android:id="@+id/textview2"
+									android:id="@+id/unit2Txt"
 									android:layout_width="wrap_content"
 									android:layout_height="wrap_content"
 									android:text="%0"
@@ -140,7 +140,7 @@
 									android:layout_weight="1.0"/>
 
 								<TextView
-									android:id="@+id/textview12"
+									android:id="@+id/unit2Txt2"
 									android:layout_width="wrap_content"
 									android:layout_height="wrap_content"
 									android:text="%0"
@@ -163,7 +163,7 @@
 							android:background="@drawable/btn">
 
 							<Button
-								android:id="@+id/button35"
+								android:id="@+id/unit3Btn"
 								android:layout_width="wrap_content"
 								android:layout_height="60dp"
 								android:layout_marginTop="1dp"
@@ -184,7 +184,7 @@
 								android:padding="6dp">
 
 								<TextView
-									android:id="@+id/textview3"
+									android:id="@+id/unit3Txt"
 									android:layout_width="wrap_content"
 									android:layout_height="wrap_content"
 									android:text="%0"
@@ -195,7 +195,7 @@
 									android:layout_weight="1.0"/>
 
 								<TextView
-									android:id="@+id/textview300"
+									android:id="@+id/unit3Txt2"
 									android:layout_width="wrap_content"
 									android:layout_height="wrap_content"
 									android:text="%0"
@@ -218,7 +218,7 @@
 							android:background="@drawable/btn">
 
 							<Button
-								android:id="@+id/button36"
+								android:id="@+id/unit4Btn"
 								android:layout_width="match_parent"
 								android:layout_height="60dp"
 								android:layout_marginTop="1dp"
@@ -239,7 +239,7 @@
 								android:padding="6dp">
 
 								<TextView
-									android:id="@+id/textview4"
+									android:id="@+id/unit4Txt"
 									android:layout_width="wrap_content"
 									android:layout_height="wrap_content"
 									android:text="%0"
@@ -250,7 +250,7 @@
 									android:layout_weight="1.0"/>
 
 								<TextView
-									android:id="@+id/textview14"
+									android:id="@+id/unit4Txt2"
 									android:layout_width="wrap_content"
 									android:layout_height="wrap_content"
 									android:text="%0"
@@ -273,7 +273,7 @@
 							android:background="@drawable/btn">
 
 							<Button
-								android:id="@+id/button37"
+								android:id="@+id/unit5Btn"
 								android:layout_width="match_parent"
 								android:layout_height="60dp"
 								android:layout_marginTop="1dp"
@@ -294,7 +294,7 @@
 								android:padding="6dp">
 
 								<TextView
-									android:id="@+id/textview5"
+									android:id="@+id/unit5Txt"
 									android:layout_width="wrap_content"
 									android:layout_height="wrap_content"
 									android:text="%0"
@@ -305,7 +305,7 @@
 									android:layout_weight="1.0"/>
 
 								<TextView
-									android:id="@+id/textview15"
+									android:id="@+id/unit5Txt2"
 									android:layout_width="wrap_content"
 									android:layout_height="wrap_content"
 									android:text="%0"
@@ -343,7 +343,7 @@
 							android:layout_weight="1.0">
 
 							<Button
-								android:id="@+id/button38"
+								android:id="@+id/unit6Btn"
 								android:layout_width="wrap_content"
 								android:layout_height="60dp"
 								android:layout_marginTop="1dp"
@@ -364,7 +364,7 @@
 								android:padding="6dp">
 
 								<TextView
-									android:id="@+id/textview22"
+									android:id="@+id/unit6Txt"
 									android:layout_width="wrap_content"
 									android:layout_height="wrap_content"
 									android:text="%0"
@@ -375,7 +375,7 @@
 									android:layout_weight="1.0"/>
 
 								<TextView
-									android:id="@+id/textview21"
+									android:id="@+id/unit6Txt2"
 									android:layout_width="wrap_content"
 									android:layout_height="wrap_content"
 									android:text="%0"
@@ -404,7 +404,7 @@
 								android:textColor="#000000"
 								android:textSize="20sp"
 								android:textStyle="bold"
-								android:id="@+id/Button39"/>
+								android:id="@+id/unit7Btn"/>
 
 							<LinearLayout
 								android:layout_height="30dp"
@@ -415,7 +415,7 @@
 								android:padding="6dp">
 
 								<TextView
-									android:id="@+id/textview1030"
+									android:id="@+id/unit7Txt"
 									android:layout_width="wrap_content"
 									android:layout_height="wrap_content"
 									android:text="%0"
@@ -427,7 +427,7 @@
 									android:layout_weight="1.0"/>
 
 								<TextView
-									android:id="@+id/textview1031"
+									android:id="@+id/unit7Txt2"
 									android:layout_width="wrap_content"
 									android:layout_height="wrap_content"
 									android:text="%0"
@@ -451,7 +451,7 @@
 							android:background="@drawable/btn">
 
 							<Button
-								android:id="@+id/Button40"
+								android:id="@+id/unit8Btn"
 								android:layout_width="match_parent"
 								android:layout_height="60dp"
 								android:layout_marginTop="1dp"
@@ -506,7 +506,7 @@
 							android:background="@drawable/btn">
 
 							<Button
-								android:id="@+id/Button41"
+								android:id="@+id/unit9Btn"
 								android:layout_width="match_parent"
 								android:layout_height="60dp"
 								android:layout_marginTop="1dp"
@@ -561,7 +561,7 @@
 							android:background="@drawable/btn">
 
 							<Button
-								android:id="@+id/Button42"
+								android:id="@+id/unit10Btn"
 								android:layout_width="match_parent"
 								android:layout_height="60dp"
 								android:layout_marginTop="1dp"
@@ -622,7 +622,7 @@
 							android:layout_weight="1.0">
 
 							<Button
-								android:id="@+id/Button43"
+								android:id="@+id/unit11Btn"
 								android:layout_width="wrap_content"
 								android:layout_height="60dp"
 								android:layout_marginTop="1dp"
@@ -683,7 +683,7 @@
 								android:textColor="#000000"
 								android:textSize="20sp"
 								android:textStyle="bold"
-								android:id="@+id/Button44"/>
+								android:id="@+id/unit12Btn"/>
 
 							<LinearLayout
 								android:layout_height="30dp"
@@ -730,7 +730,7 @@
 							android:background="@drawable/btn">
 
 							<Button
-								android:id="@+id/Button45"
+								android:id="@+id/unit13Btn"
 								android:layout_width="match_parent"
 								android:layout_height="60dp"
 								android:layout_marginTop="1dp"

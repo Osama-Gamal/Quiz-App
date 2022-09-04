@@ -15,10 +15,10 @@ import android.view.View;
 public class InfoActivity extends Activity {
 	
 
-	private TextView textview1;
-	private ImageView imageview1;
-	private Button button2;
-	private Button button3;
+	private TextView infoTxt;
+	private ImageView youtubeBtn;
+	private Button whatsBtn;
+	private Button faceBtn;
 	
 	private Intent km = new Intent();
 	@Override
@@ -30,14 +30,14 @@ public class InfoActivity extends Activity {
 	}
 	
 	private void initialize() {
-		
 
-		textview1 = (TextView) findViewById(R.id.textview1);
-		imageview1 = (ImageView) findViewById(R.id.imageview1);
-		button2 = (Button) findViewById(R.id.button2);
-		button3 = (Button) findViewById(R.id.button3);
-		
-		imageview1.setOnClickListener(new View.OnClickListener() {
+
+		infoTxt = (TextView) findViewById(R.id.infoTxt);
+		youtubeBtn = (ImageView) findViewById(R.id.youtubeBtn);
+		whatsBtn = (Button) findViewById(R.id.whatsBtn);
+		faceBtn = (Button) findViewById(R.id.faceBtn);
+
+		youtubeBtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
 				km.setData(Uri.parse("https://www.youtube.com/channel/UCX7-KEWpYxeyGFWoCHyallQ"));
@@ -45,8 +45,8 @@ public class InfoActivity extends Activity {
 				startActivity(km);
 			}
 		});
-		
-		button2.setOnClickListener(new View.OnClickListener() {
+
+		whatsBtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
 				km.setAction(Intent.ACTION_VIEW);
@@ -54,8 +54,8 @@ public class InfoActivity extends Activity {
 				startActivity(km);
 			}
 		});
-		
-		button3.setOnClickListener(new View.OnClickListener() {
+
+		faceBtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
 				try {
@@ -71,7 +71,7 @@ public class InfoActivity extends Activity {
 		});
 	}
 	private void initializeLogic() {
-		textview1.setText("هذا التطبيق لطلبة الثانوية العامة من عام 2020-1441 \n****************************\nتم برمجة التطبيق بواسطة المعيار\nالإصدار 1.1\n****************\nجميع الحقوق محفوظة لصالح المعيار ©\n قم بمتابعة القناة الرسمية للمعيار علي يوتيوب لمتابعة باقي الإصدارات فور صدورها");
+		infoTxt.setText("هذا التطبيق لطلبة الثانوية العامة من عام 2020-1441 \n****************************\nتم برمجة التطبيق بواسطة المعيار\nالإصدار 1.1\n****************\nجميع الحقوق محفوظة لصالح المعيار ©\n قم بمتابعة القناة الرسمية للمعيار علي يوتيوب لمتابعة باقي الإصدارات فور صدورها");
 	}
 	
 	@Override

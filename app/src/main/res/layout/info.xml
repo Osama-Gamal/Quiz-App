@@ -23,7 +23,7 @@
 			android:orientation="vertical">
 
 			<TextView
-				android:id="@+id/textview1"
+				android:id="@+id/infoTxt"
 				android:layout_width="wrap_content"
 				android:layout_height="match_parent"
 				android:padding="8dp"
@@ -43,7 +43,7 @@
 				android:orientation="horizontal">
 
 				<ImageView
-					android:id="@+id/imageview1"
+					android:id="@+id/youtubeBtn"
 					android:layout_width="130dp"
 					android:layout_height="40dp"
 					android:layout_marginRight="3dp"
@@ -51,7 +51,7 @@
 					android:scaleType="fitXY"/>
 
 				<Button
-					android:id="@+id/button3"
+					android:id="@+id/faceBtn"
 					android:layout_width="130dp"
 					android:layout_height="40dp"
 					android:padding="4dp"
@@ -63,7 +63,7 @@
 					android:layout_marginRight="3dp"/>
 
 				<Button
-					android:id="@+id/button2"
+					android:id="@+id/whatsBtn"
 					android:layout_width="130dp"
 					android:layout_height="50dp"
 					android:padding="4dp"

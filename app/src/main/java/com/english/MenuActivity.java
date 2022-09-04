@@ -15,9 +15,9 @@ import com.google.android.gms.ads.*;
 public class MenuActivity extends Activity {
 	
 	
-	private Button button10;
-	private Button button9;
-	private Button button7;
+	private Button exitBtn;
+	private Button infoBtn;
+	private Button startBtn;
 	
 	private Intent i = new Intent();
 	private MediaPlayer f;
@@ -73,19 +73,19 @@ public class MenuActivity extends Activity {
 	}
 	
 	private void initialize() {
-		
-		button10 = (Button) findViewById(R.id.button10);
-		button9 = (Button) findViewById(R.id.button9);
-		button7 = (Button) findViewById(R.id.button7);
-		
-		button10.setOnClickListener(new View.OnClickListener() {
+
+		exitBtn = (Button) findViewById(R.id.exitBtn);
+		infoBtn = (Button) findViewById(R.id.infoBtn);
+		startBtn = (Button) findViewById(R.id.startBtn);
+
+		exitBtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
 				finish();
 			}
 		});
-		
-		button9.setOnClickListener(new View.OnClickListener() {
+
+		infoBtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
 				f.start();
@@ -93,8 +93,8 @@ public class MenuActivity extends Activity {
 				startActivity(i);
 			}
 		});
-		
-		button7.setOnClickListener(new View.OnClickListener() {
+
+		startBtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
 				f.start();

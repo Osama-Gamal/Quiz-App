@@ -32,23 +32,11 @@ import android.view.View;
 public class ChapActivity extends Activity {
 	
 
-	private Button button33,button34,button35,Button39,Button40,Button41,Button42,Button43,Button44,Button45;
-	private TextView textview11;
-	private TextView textview1;
-	private TextView textview12;
-	private TextView textview2;
-	private TextView textview3;
-	private Button Button46,Button47,Button48,Button49,Button50,Button51,button36;
-	private TextView textview14;
-	private TextView textview4;
-	private Button button37;
-	private TextView textview15;
-	private TextView textview5;
-	private TextView textview300;
-	private Button button38;
-	private TextView textview21;
-	private TextView textview22;
-	
+	private Button unit1Btn,unit2Btn,unit3Btn,unit7Btn,unit8Btn,unit9Btn,unit10Btn,unit11Btn,unit12Btn,unit13Btn;
+	private Button Button46,Button47,Button48,Button49,Button50,Button51,unit4Btn,unit5Btn,unit6Btn;
+	private TextView unit1Txt,unit2Txt,unit3Txt,unit1Txt2,unit2Txt2,unit4Txt2,unit4Txt,unit5Txt2,unit5Txt;
+	private TextView unit3Txt2,unit6Txt2,unit6Txt;
+
 	private SharedPreferences total;
 	private Intent i = new Intent();
 	private MediaPlayer clk;
@@ -66,24 +54,24 @@ public class ChapActivity extends Activity {
 	
 	private void initialize() {
 
-		button33 = (Button) findViewById(R.id.button33);
-		textview11 = (TextView) findViewById(R.id.textview11);
-		textview1 = (TextView) findViewById(R.id.textview1);
-		button34 = (Button) findViewById(R.id.button34);
-		textview12 = (TextView) findViewById(R.id.textview12);
-		textview2 = (TextView) findViewById(R.id.textview2);
+		unit1Btn = (Button) findViewById(R.id.unit1Btn);
+		unit1Txt2 = (TextView) findViewById(R.id.unit1Txt2);
+		unit1Txt = (TextView) findViewById(R.id.unit1Txt);
+		unit2Btn = (Button) findViewById(R.id.unit2Btn);
+		unit2Txt2 = (TextView) findViewById(R.id.unit2Txt2);
+		unit2Txt = (TextView) findViewById(R.id.unit2Txt);
 
-		button35=(Button)findViewById(R.id.button35);
-		textview300=(TextView)findViewById(R.id.textview300);
-		textview3=(TextView)findViewById(R.id.textview3);
-		
-		Button39=(Button)findViewById(R.id.Button39);
-		Button40=(Button)findViewById(R.id.Button40);
-		Button41=(Button)findViewById(R.id.Button41);
-		Button42=(Button)findViewById(R.id.Button42);
-		Button43=(Button)findViewById(R.id.Button43);
-		Button44=(Button)findViewById(R.id.Button44);
-		Button45=(Button)findViewById(R.id.Button45);
+		unit3Btn=(Button)findViewById(R.id.unit3Btn);
+		unit3Txt=(TextView)findViewById(R.id.unit3Txt);
+		unit3Txt2=(TextView)findViewById(R.id.unit3Txt2);
+
+		unit7Btn=(Button)findViewById(R.id.unit7Btn);
+		unit8Btn=(Button)findViewById(R.id.unit8Btn);
+		unit9Btn=(Button)findViewById(R.id.unit9Btn);
+		unit10Btn=(Button)findViewById(R.id.unit10Btn);
+		unit11Btn=(Button)findViewById(R.id.unit11Btn);
+		unit12Btn=(Button)findViewById(R.id.unit12Btn);
+		unit13Btn=(Button)findViewById(R.id.unit13Btn);
 		Button46=(Button)findViewById(R.id.Button46);
 		Button47=(Button)findViewById(R.id.Button47);
 		Button48=(Button)findViewById(R.id.Button48);
@@ -96,20 +84,20 @@ public class ChapActivity extends Activity {
 		textview1054=(TextView)findViewById(R.id.textview1054);
 		textview1055=(TextView)findViewById(R.id.textview1055);
 
-		button36 = (Button) findViewById(R.id.button36);
-		textview14 = (TextView) findViewById(R.id.textview14);
-		textview4 = (TextView) findViewById(R.id.textview4);
+		unit4Btn = (Button) findViewById(R.id.unit4Btn);
+		unit4Txt2 = (TextView) findViewById(R.id.unit4Txt2);
+		unit4Txt = (TextView) findViewById(R.id.unit4Txt);
 
-		button37 = (Button) findViewById(R.id.button37);
-		textview15 = (TextView) findViewById(R.id.textview15);
-		textview5 = (TextView) findViewById(R.id.textview5);
+		unit5Btn = (Button) findViewById(R.id.unit5Btn);
+		unit5Txt2 = (TextView) findViewById(R.id.unit5Txt2);
+		unit5Txt = (TextView) findViewById(R.id.unit5Txt);
 
-		button38 = (Button) findViewById(R.id.button38);
-		textview21 = (TextView) findViewById(R.id.textview21);
-		textview22 = (TextView) findViewById(R.id.textview22);
+		unit6Btn = (Button) findViewById(R.id.unit6Btn);
+		unit6Txt2 = (TextView) findViewById(R.id.unit6Txt2);
+		unit6Txt = (TextView) findViewById(R.id.unit6Txt);
 		total = getSharedPreferences("total", Activity.MODE_PRIVATE);
 
-		button33.setOnClickListener(new View.OnClickListener() {
+		unit1Btn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
 				clk.start();
@@ -119,8 +107,8 @@ public class ChapActivity extends Activity {
 				finish();
 			}
 		});
-		
-		button34.setOnClickListener(new View.OnClickListener() {
+
+		unit2Btn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
 				clk.start();
@@ -130,8 +118,8 @@ public class ChapActivity extends Activity {
 				finish();
 			}
 		});
-		
-		button35.setOnClickListener(new View.OnClickListener() {
+
+		unit3Btn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
 				clk.start();
@@ -142,8 +130,8 @@ public class ChapActivity extends Activity {
 				finish();
 			}
 		});
-		
-		button36.setOnClickListener(new View.OnClickListener() {
+
+		unit4Btn.setOnClickListener(new View.OnClickListener() {
 				@Override
 				public void onClick(View view) {
 					clk.start();
@@ -152,8 +140,8 @@ public class ChapActivity extends Activity {
 					startActivity(i);
 					finish();
 				}});
-		
-		button37.setOnClickListener(new View.OnClickListener() {
+
+		unit5Btn.setOnClickListener(new View.OnClickListener() {
 				@Override
 				public void onClick(View view) {
 					clk.start();
@@ -166,23 +154,8 @@ public class ChapActivity extends Activity {
 
 					dialog.show();
 				}});
-		
-		button38.setOnClickListener(new View.OnClickListener() {
-				@Override
-				public void onClick(View view) {
-					clk.start();
-					final AlertDialog dialog = new AlertDialog.Builder(ChapActivity.this).create();
-					LayoutInflater inflater = getLayoutInflater();
 
-					View convertView = (View) inflater.inflate(R.layout.custom, null);
-					dialog.setView(convertView);
-
-
-
-					dialog.show();
-				}});
-			
-		Button39.setOnClickListener(new View.OnClickListener() {
+		unit6Btn.setOnClickListener(new View.OnClickListener() {
 				@Override
 				public void onClick(View view) {
 					clk.start();
@@ -196,8 +169,8 @@ public class ChapActivity extends Activity {
 
 					dialog.show();
 				}});
-			
-		Button40.setOnClickListener(new View.OnClickListener() {
+
+		unit7Btn.setOnClickListener(new View.OnClickListener() {
 				@Override
 				public void onClick(View view) {
 					clk.start();
@@ -211,9 +184,8 @@ public class ChapActivity extends Activity {
 
 					dialog.show();
 				}});
-			
-			
-		Button41.setOnClickListener(new View.OnClickListener() {
+
+		unit8Btn.setOnClickListener(new View.OnClickListener() {
 				@Override
 				public void onClick(View view) {
 					clk.start();
@@ -227,8 +199,9 @@ public class ChapActivity extends Activity {
 
 					dialog.show();
 				}});
-			
-		Button42.setOnClickListener(new View.OnClickListener() {
+
+
+		unit9Btn.setOnClickListener(new View.OnClickListener() {
 				@Override
 				public void onClick(View view) {
 					clk.start();
@@ -242,8 +215,8 @@ public class ChapActivity extends Activity {
 
 					dialog.show();
 				}});
-			
-		Button43.setOnClickListener(new View.OnClickListener() {
+
+		unit10Btn.setOnClickListener(new View.OnClickListener() {
 				@Override
 				public void onClick(View view) {
 					clk.start();
@@ -257,8 +230,23 @@ public class ChapActivity extends Activity {
 
 					dialog.show();
 				}});
-			
-		Button44.setOnClickListener(new View.OnClickListener() {
+
+		unit11Btn.setOnClickListener(new View.OnClickListener() {
+				@Override
+				public void onClick(View view) {
+					clk.start();
+					final AlertDialog dialog = new AlertDialog.Builder(ChapActivity.this).create();
+					LayoutInflater inflater = getLayoutInflater();
+
+					View convertView = (View) inflater.inflate(R.layout.custom, null);
+					dialog.setView(convertView);
+
+
+
+					dialog.show();
+				}});
+
+		unit12Btn.setOnClickListener(new View.OnClickListener() {
 				@Override
 				public void onClick(View view) {
 					clk.start();
@@ -271,8 +259,8 @@ public class ChapActivity extends Activity {
 
 					dialog.show();
 				}});
-			
-		Button45.setOnClickListener(new View.OnClickListener() {
+
+		unit13Btn.setOnClickListener(new View.OnClickListener() {
 				@Override
 				public void onClick(View view) {
 					clk.start();
@@ -374,34 +362,34 @@ public class ChapActivity extends Activity {
 	private void initializeLogic() {
 		clk = MediaPlayer.create(getApplicationContext(), R.raw.cliuck);
 		if (total.getString("cha1", "").equals("")) {
-			textview1.setText("%0");
+			unit1Txt.setText("%0");
 		}
 		else {
-			textview1.setText("%".concat(total.getString("cha1", "")));
+			unit1Txt.setText("%".concat(total.getString("cha1", "")));
 		}
 		if (total.getString("cha2", "").equals("")) {
-			textview2.setText("%0");
+			unit2Txt.setText("%0");
 		}
 		else {
-			textview2.setText("%".concat(total.getString("cha2", "")));
+			unit2Txt.setText("%".concat(total.getString("cha2", "")));
 		}
 		if (total.getString("cha3", "").equals("")) {
-			textview3.setText("%0");
+			unit3Txt.setText("%0");
 		}
 		else {
-			textview3.setText("%".concat(total.getString("cha3", "")));
+			unit3Txt.setText("%".concat(total.getString("cha3", "")));
 		}
 		if (total.getString("cha4", "").equals("")) {
-			textview4.setText("%0");
+			unit4Txt.setText("%0");
 		}
 		else {
-			textview4.setText("%".concat(total.getString("cha4", "")));
+			unit4Txt.setText("%".concat(total.getString("cha4", "")));
 		}
 		if (total.getString("cha5", "").equals("")) {
-			textview5.setText("%0");
+			unit5Txt.setText("%0");
 		}
 		else {
-			textview5.setText("%".concat(total.getString("cha5", "")));
+			unit5Txt.setText("%".concat(total.getString("cha5", "")));
 		}
 		if (total.getString("all", "").equals("")) {
 			textview1054.setText("%0");
@@ -410,59 +398,59 @@ public class ChapActivity extends Activity {
 			textview1054.setText("%".concat(total.getString("all", "")));
 		}
 		if (total.getString("cha6", "").equals("")) {
-			textview22.setText("%0");
+			unit6Txt.setText("%0");
 		}
 		else {
 			if (total.getString("cha7", "").equals("")) {
-				textview5.setText("%0");
+				unit5Txt.setText("%0");
 			}
 			else {
 				if (total.getString("cha8", "").equals("")) {
-					textview5.setText("%0");
+					unit5Txt.setText("%0");
 				}
 				else {
 					if (total.getString("cha9", "").equals("")) {
-						textview5.setText("%0");
+						unit5Txt.setText("%0");
 					}
 					else {
 						if (total.getString("cha10", "").equals("")) {
-							textview5.setText("%0");
+							unit5Txt.setText("%0");
 						}
 						else {
 							if (total.getString("cha11", "").equals("")) {
-								textview5.setText("%0");
+								unit5Txt.setText("%0");
 							}
 							else {
 								if (total.getString("cha12", "").equals("")) {
-									textview5.setText("%0");
+									unit5Txt.setText("%0");
 								}
 								else {
 									if (total.getString("cha13", "").equals("")) {
-										textview5.setText("%0");
+										unit5Txt.setText("%0");
 									}
 									else {
 										if (total.getString("cha14", "").equals("")) {
-											textview5.setText("%0");
+											unit5Txt.setText("%0");
 										}
 											else{
 												if (total.getString("cha15", "").equals("")) {
-													textview5.setText("%0");
+													unit5Txt.setText("%0");
 												}
 												else {
 													if (total.getString("cha16", "").equals("")) {
-														textview5.setText("%0");
+														unit5Txt.setText("%0");
 													}
 													else {
 														if (total.getString("cha17", "").equals("")) {
-															textview5.setText("%0");
+															unit5Txt.setText("%0");
 														}
 														else {
 															if (total.getString("cha18", "").equals("")) {
-																textview5.setText("%0");
+																unit5Txt.setText("%0");
 															}
 															else {
 																if (total.getString("all", "").equals("")) {
-																	textview5.setText("%0");
+																	unit5Txt.setText("%0");
 																}
 																else{
 																	
@@ -474,31 +462,31 @@ public class ChapActivity extends Activity {
 			
 		}
 		else {
-			textview11.setText("%".concat(total.getString("cha_high1", "")));
+			unit1Txt2.setText("%".concat(total.getString("cha_high1", "")));
 		}
 		if (total.getString("cha_high2", "").equals("")) {
 			
 		}
 		else {
-			textview12.setText("%".concat(total.getString("cha_high2", "")));
+			unit2Txt2.setText("%".concat(total.getString("cha_high2", "")));
 		}
 		if (total.getString("cha_high3", "").equals("")) {
 			
 		}
 		else {
-			textview300.setText("%".concat(total.getString("cha_high3", "")));
+			unit3Txt2.setText("%".concat(total.getString("cha_high3", "")));
 		}
 		if (total.getString("cha_high4", "").equals("")) {
 			
 		}
 		else {
-			textview14.setText("%".concat(total.getString("cha_high4", "")));
+			unit4Txt2.setText("%".concat(total.getString("cha_high4", "")));
 		}
 		if (total.getString("cha_high5", "").equals("")) {
 			
 		}
 		else {
-			textview15.setText("%".concat(total.getString("cha_high5", "")));
+			unit5Txt2.setText("%".concat(total.getString("cha_high5", "")));
 		}
 		if (total.getString("cha_all", "").equals("")) {
 			
@@ -510,37 +498,37 @@ public class ChapActivity extends Activity {
 
 		}
 		else {
-			textview21.setText("%".concat(total.getString("cha_high6", "")));
+			unit6Txt2.setText("%".concat(total.getString("cha_high6", "")));
 		}
 		if (total.getString("cha_high5", "").equals("")) {
 
 		}
 		else {
-			textview15.setText("%".concat(total.getString("cha_high5", "")));
+			unit5Txt2.setText("%".concat(total.getString("cha_high5", "")));
 		}
 		if (total.getString("cha_high5", "").equals("")) {
 
 		}
 		else {
-			textview15.setText("%".concat(total.getString("cha_high5", "")));
+			unit5Txt2.setText("%".concat(total.getString("cha_high5", "")));
 		}
 		if (total.getString("cha_high5", "").equals("")) {
 
 		}
 		else {
-			textview15.setText("%".concat(total.getString("cha_high5", "")));
+			unit5Txt2.setText("%".concat(total.getString("cha_high5", "")));
 		}
 		if (total.getString("cha_high5", "").equals("")) {
 
 		}
 		else {
-			textview15.setText("%".concat(total.getString("cha_high5", "")));
+			unit5Txt2.setText("%".concat(total.getString("cha_high5", "")));
 		}
 		if (total.getString("cha_high5", "").equals("")) {
 
 		}
 		else {
-			textview15.setText("%".concat(total.getString("cha_high5", "")));
+			unit5Txt2.setText("%".concat(total.getString("cha_high5", "")));
 		}
 	}
 	

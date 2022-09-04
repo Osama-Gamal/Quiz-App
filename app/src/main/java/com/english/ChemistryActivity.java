@@ -103,11 +103,6 @@ public class ChemistryActivity extends unit1 {
 												R.anim.left);
 
 
-
-
-
-
-
 		freeze.setOnClickListener(new View.OnClickListener(){
 				public void onClick(View v){
 					if(freeze.isEnabled()==true){

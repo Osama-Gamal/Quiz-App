@@ -51,7 +51,7 @@
 					android:layout_weight="1">
 
 					<Button
-						android:id="@+id/button10"
+						android:id="@+id/exitBtn"
 						android:layout_width="match_parent"
 						android:layout_height="match_parent"
 						android:padding="8dp"
@@ -63,7 +63,7 @@
 						android:layout_weight="1"/>
 
 					<Button
-						android:id="@+id/button9"
+						android:id="@+id/infoBtn"
 						android:layout_width="match_parent"
 						android:layout_height="match_parent"
 						android:padding="8dp"
@@ -75,7 +75,7 @@
 						android:layout_weight="1"/>
 
 					<Button
-						android:id="@+id/button7"
+						android:id="@+id/startBtn"
 						android:layout_width="match_parent"
 						android:layout_height="match_parent"
 						android:padding="8dp"
